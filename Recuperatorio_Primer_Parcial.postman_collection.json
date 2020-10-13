@@ -1,0 +1,191 @@
+{
+	"info": {
+		"_postman_id": "3a4a46cf-ed04-4902-9749-043270a73cb3",
+		"name": "Recuperatorio_Primer_Parcial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Punto 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "sdsd",
+					"host": [
+						"sdsd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "brunogoffredo222@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Recu_Primer_Parcial_Prog3\\index.php/login",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Recu_Primer_Parcial_Prog3",
+						"index.php",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9leGFtcGxlLm9yZyIsImF1ZCI6Imh0dHA6XC9cL2V4YW1wbGUuY29tIiwiaWF0IjoxMzU2OTk5NTI0LCJuYmYiOjEzNTcwMDAwMDAsImVtYWlsIjoiYnJ1bm9nb2ZmcmVkbzIyMkBnbWFpbC5jb20iLCJ0aXBvIjoiYWRtaW4ifQ.xxSp-2Po29PNaLNhmiu_EfH5yHVMKu0NU8uE3KrLvSo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "marca",
+							"value": "Fiat",
+							"type": "text"
+						},
+						{
+							"key": "modelo",
+							"value": "2011",
+							"type": "text"
+						},
+						{
+							"key": "patente",
+							"value": "bbb222",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "$600.000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Recu_Primer_Parcial_Prog3\\index.php/vehiculo",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Recu_Primer_Parcial_Prog3",
+						"index.php",
+						"vehiculo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 4",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9leGFtcGxlLm9yZyIsImF1ZCI6Imh0dHA6XC9cL2V4YW1wbGUuY29tIiwiaWF0IjoxMzU2OTk5NTI0LCJuYmYiOjEzNTcwMDAwMDAsImVtYWlsIjoiYnJ1bm9nb2ZmcmVkbzIyMkBnbWFpbC5jb20iLCJ0aXBvIjoiYWRtaW4ifQ.xxSp-2Po29PNaLNhmiu_EfH5yHVMKu0NU8uE3KrLvSo",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost/Recu_Primer_Parcial_Prog3/index.php/patente/fiat",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Recu_Primer_Parcial_Prog3",
+						"index.php",
+						"patente",
+						"fiat"
+					],
+					"query": [
+						{
+							"key": "marca",
+							"value": "Ford",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 5",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9leGFtcGxlLm9yZyIsImF1ZCI6Imh0dHA6XC9cL2V4YW1wbGUuY29tIiwiaWF0IjoxMzU2OTk5NTI0LCJuYmYiOjEzNTcwMDAwMDAsImVtYWlsIjoiYnJ1bm9nb2ZmcmVkbzIyMkBnbWFpbC5jb20iLCJ0aXBvIjoiYWRtaW4ifQ.xxSp-2Po29PNaLNhmiu_EfH5yHVMKu0NU8uE3KrLvSo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "10.000km",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "$100",
+							"type": "text"
+						},
+						{
+							"key": "demora",
+							"value": "10m",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/Recu_Primer_Parcial_Prog3/index.php/servicio",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Recu_Primer_Parcial_Prog3",
+						"index.php",
+						"servicio"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
